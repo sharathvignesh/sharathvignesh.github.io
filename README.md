@@ -1,2 +1,2 @@
-# lakshmantgld.github.io
+# sharathvignesh.github.io
 resume
