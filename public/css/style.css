@@ -5,7 +5,13 @@
 body {
   margin: 0;
 }
-
+#app{
+  line-height: 20px;
+}
+p {
+margin: 0;
+padding: 0;
+}
 img {
   height: 30px;
 }
@@ -56,14 +62,8 @@ img {
   font-weight: 300;
   font-size: 14px;
   color: #797575;
-  line-height: 15px;
+
 }
 .imgSpace{
   padding-right: 18px;
-}
-.imagesDiv{
-  padding-top: 10px;
-}
-.sideContent{
-  line-height: 14px;
 }

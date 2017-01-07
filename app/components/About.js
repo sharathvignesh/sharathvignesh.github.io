@@ -31,6 +31,7 @@ class About extends Component {
             <p className='contents'> {this.props.abt} </p>
           </div>
         </div>
+        <br />
       </div>
     );
   }

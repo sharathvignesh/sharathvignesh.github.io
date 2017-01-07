@@ -47,6 +47,7 @@ class Skills extends Component {
                         {this.renderSkillSet(this.props.skillSet)}
                     </div>
                 </div>
+              <br/>
             </div>
         );
     }
