@@ -41,12 +41,12 @@ class ResumeComponent extends Component {
              <h1 className='robotoRegFont'>{resume.name}</h1>
              <h5 className='robotoLightFont' style={{'color' : '#797575','lineHeight' : '2'}}>{resume.address} &nbsp;&nbsp;|&nbsp;&nbsp;{resume.email} &nbsp;&nbsp;|&nbsp;{resume.mobile}</h5>
           <About abt={resume.about}/>
-          <Skills skillSet={resume.skills}/>
+          <Experience experience={resume.experience}/>
           <Education education={resume.education}/>
+          <Skills skillSet={resume.skills}/>
           <Awards awards={resume.awards}/>
           <Projects projects={resume.projects}/>
           <Contact contact={resume.contacts}/>
-          <Experience experience={resume.experience}/>
             </div>
           </div>
         </div>
