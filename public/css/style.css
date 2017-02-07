@@ -5,6 +5,10 @@
 body {
   margin: 0;
 }
+body,html{
+  overflow-x: hidden;
+}
+
 #app{
   line-height: 20px;
 }
