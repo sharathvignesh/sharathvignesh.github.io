@@ -5,8 +5,19 @@
 body {
   margin: 0;
 }
+body,html{
+  overflow-x: hidden;
+}
+
 #app{
   line-height: 20px;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+a:hover{
+  color : #9c27b0;
 }
 p {
 margin: 0;
@@ -26,7 +37,7 @@ img {
 }
 .sideHeading{
   font-family: 'roboto-reg';
-  color: #973df2;
+  color: #0cb4ff;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -40,7 +51,8 @@ img {
   font-family: 'roboto-light';
   font-weight: 300;
   font-size: 14px;
-
+  display: inline;
+  padding-left: 6px;
 }
 .universityName, .awardName, .projectName{
   font-family: 'roboto-medium';
@@ -66,4 +78,14 @@ img {
 }
 .imgSpace{
   padding-right: 18px;
+}
+
+.img-skill-icon {
+    display: inline-block;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+#skill-padding-bottom{
+    padding-bottom: 4px;
 }
