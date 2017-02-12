@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component, } from 'react';
 import { connect } from 'react-redux';
-
+import fetch from 'isomorphic-fetch';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import resume from '../../resume.json';
@@ -28,10 +28,26 @@ const muiTheme = getMuiTheme({
   }
 });
 
-
-
-
 class ResumeComponent extends Component {
+  componentDidMount(){
+    console.log("did mount");
+    fetch('https://hooks.slack.com/services/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', {
+    credentials: 'omit',
+    method: 'POST',
+    //body: JSON.stringify({'value' : value})})
+    body: JSON.stringify({'text' : "someone viewed your resume"})})
+     .then(res => {
+       if (res.status !== 200) {
+         let status = res.status;
+         console.log('error in posting event');
+       }
+       console.log("succesfully saved");
+       console.log(res.json());
+     })
+     .then(res =>{
+       console.log(res);
+     })
+  }
   render() {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
