@@ -35,7 +35,7 @@ class ResumeComponent extends Component {
 
 componentDidMount(){
   console.log("did mount");
-  $.get("http://ipinfo.io", function(response) {
+  $.get("https://ipinfo.io", function(response) {
     const city = response.city;
     fetch('https://hooks.slack.com/services/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', {
     credentials: 'omit',
