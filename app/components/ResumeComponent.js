@@ -12,7 +12,7 @@ import Contact from './Contact';
 import Education from './Education';
 import Awards from './Awards';
 import Projects from './Projects';
-
+var $ = require ('jquery');
 let styles = {
   robotofont: {
     fontFamily: 'roboto'
@@ -29,13 +29,19 @@ const muiTheme = getMuiTheme({
 });
 
 class ResumeComponent extends Component {
-  componentDidMount(){
-    console.log("did mount");
+
+
+
+
+componentDidMount(){
+  console.log("did mount");
+  $.get("http://ipinfo.io", function(response) {
+    const city = response.city;
     fetch('https://hooks.slack.com/services/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', {
     credentials: 'omit',
     method: 'POST',
     //body: JSON.stringify({'value' : value})})
-    body: JSON.stringify({'text' : "someone viewed your resume"})})
+    body: JSON.stringify({'text' : "someone viewed your resume from " + city})})
      .then(res => {
        if (res.status !== 200) {
          let status = res.status;
@@ -47,7 +53,11 @@ class ResumeComponent extends Component {
      .then(res =>{
        console.log(res);
      })
-  }
+  }, "jsonp")
+
+}
+
+
   render() {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
