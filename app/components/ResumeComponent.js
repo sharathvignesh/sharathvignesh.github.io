@@ -37,11 +37,12 @@ componentDidMount(){
   console.log("did mount");
   $.get("https://ipinfo.io", function(response) {
     const city = response.city;
+    const host = response.hostname;
     fetch('https://hooks.slack.com/services/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', {
     credentials: 'omit',
     method: 'POST',
     //body: JSON.stringify({'value' : value})})
-    body: JSON.stringify({'text' : "someone viewed your resume from " + city})})
+    body: JSON.stringify({'text' : "someone viewed your resume from " + city + "," + host})})
      .then(res => {
        if (res.status !== 200) {
          let status = res.status;
