@@ -28,8 +28,8 @@ class Contact extends Component {
       // for looping contact
       for (let contactType in contact) {
           if (contact.hasOwnProperty(contactType)) {
-              //renderedcontact.push(<a className="imgSpace" target="_blank" href={contact[contactType]}><img src={this.getImageURL(contactType)}></img></a>);
-              renderedcontact.push(<div><a className='robotoLightFont' target="_blank" href={contact[contactType]}>{contact[contactType]}</a><br /></div>);
+              renderedcontact.push(<a className="imgSpace" target="_blank" href={contact[contactType]}><img src={this.getImageURL(contactType)}></img></a>);
+              //renderedcontact.push(<div><a className='robotoLightFont' target="_blank" href={contact[contactType]}>{contact[contactType]}</a><br /></div>);
             }
       }
       return renderedcontact;
