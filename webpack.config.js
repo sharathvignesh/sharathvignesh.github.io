@@ -34,7 +34,7 @@ var config = {
         'NODE_ENV': JSON.stringify('production')
       }
     })
-  ] 
+  ]
 };
 
 // for production env - this reduces the size by 3/4 th. In our case from 12mb to 1mb.
