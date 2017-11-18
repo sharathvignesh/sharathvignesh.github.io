@@ -1,0 +1,97 @@
+{
+  "name": "Sharath Vignesh 🙇🏻",
+  "address": "Yokohama, Japan 🗻 ",
+  "email": "sharathvignesh08@gmail.com",
+  "mobile": "+81 9092027800",
+  "about": "Full stack / Front end developer. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
+  "skills": {
+    "language" : "Java, PHP, Javascript, CSS, Python",
+    "frameworks" : "ReactJS, Redux, NODEJS, MochaJS, GraphQL, SocketIO, Smarty PHP, FFMPEG, DashJS",
+    "database" : "MySQL, Mongodb, Postgres",
+    "tools" : "Git, Atom, Grunt, Gulp, Webpack",
+    "misc" : "CCNA, SDN, Stressless streaming, Unix, Web hosting"
+  },
+  "experience": [
+    {
+      "position" : "Full stack developer",
+      "organization" : "Fuji Xerox",
+      "location" : "Yokohama, Japan",
+      "year" : "Aug 2016 - Present",
+      "description" : ["Developed a client side application (using ReactJS, SocketIO) for real time Doctor recommendation system.",
+       "Test driven development of a Mulitmedia platform API (using nodeJS, MochaJS, Postgres) that processes the videos uploaded by the users.",
+       "Developed a client side video portal with various analytics features (using ReactJS, DashJS, nodeJS, Mongodb).",
+       "Researched and solved a generic problem with respect to video streaming that enhances the QoE for the viewers."
+      ]
+    },
+    {
+      "position" : "Full Stack developer Intern",
+      "organization" : "Nasotech LLC",
+      "location" : "Chennai, India",
+      "year" : "Dec 2014 - May 2015",
+      "description" : ["Developed a Library application (using smartyPhP, MySQL, HTML, JS)that allows the users to lend and borrow books.",
+        "Lead a team of 4 fellow interns for the project."
+      ]
+    },
+    {
+      "position" : "Full stack Developer",
+      "organization" : "Nowd. Co",
+      "location" : "Chennai, India",
+      "year" : "June 2014 - Feb 2015",
+      "description" : ["Nowd is a digital product agency specializing in APIs, prototypes and MVP's for startups and schools."]
+    }
+  ],
+  "education": [
+    {
+      "name": "SSN College of Engineering",
+      "degree": "B.E Computer Science",
+      "year": "2012 - 2106",
+      "description": ["Head of SSN ACM Student Chapter web development team",
+        "Head of Instincts Tech team 2015"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "name": "Best technology award",
+      "organiser": "32 Hour startup, Lakshya",
+      "date": "",
+      "description": "My team was bestowed with 'Best technology award' for our product 'Ping my food'"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Posted (under development)",
+      "role": "Creator / Developer",
+      "description": "📝 Beautiful product update (what's new) pages for your product.(uses ReactJS, nodeJS, Mongodb, JWT)",
+      "link": "https://posted-stg.herokuapp.com/"
+    },
+    {
+      "name": "Coming-or-not",
+      "role": "Full stack developer",
+      "description": "An event planning system that is aimed to ease the work of event planners/organizers (uses ReactJS, Redux, serverless, GraphQL)",
+      "link": "http://comingornot.com/"
+    },
+    {
+      "name": "FoodforNeed",
+      "role": "Creator / Developer",
+      "description": "A web app aimed to reduce food wastage and to feed the needy ones (uses ReactJS, Redux, nodeJS, GraphQL, Mongodb)",
+      "link": "http://foodforneed.herokuapp.com/"
+    },
+    {
+      "name": "SDN Application",
+      "role": "Developer",
+      "description": "An application to monitor, analyse and improve the overall throughput or performance of a Software defined Network"
+    },
+    {
+      "name": "Ping my food",
+      "role": "Full stack developer",
+      "description": "An Intelligent food network that facilitates the food surplus zones and food deficit zones to efficiently collaborate",
+      "link": "https://github.com/sharathvignesh/PingMyFood"
+    }
+  ],
+  "contacts": {
+    "twitter": "https://twitter.com/sharathvignesh",
+    "github": "https://github.com/sharathvignesh",
+    "linkedin": "https://www.linkedin.com/in/sharathvignesh/"
+  }
+}

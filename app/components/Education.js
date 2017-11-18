@@ -26,9 +26,8 @@ class Education extends Component {
       educationSet.push(<p className='universityName'>{education[i]["name"]}</p>);
       educationSet.push(<p className='degreeName'>{education[i]["degree"]}</p>);
       educationSet.push(<p className='educationYear'>{education[i]["year"]}</p>);
-      if (education[i]["description"] !== "") {
-        educationSet.push(<p className='educationDescription'>{education[i]["description"]}</p>);
-      }
+      for(var j=0; j<education[i]["description"].length; j++)
+        educationSet.push(<p className='educationDescription'><li>{education[i]["description"][j]}</li></p>);
       renderedEducation.push(educationSet);
       renderedEducation.push(<br />);
     }

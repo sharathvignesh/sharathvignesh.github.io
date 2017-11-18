@@ -27,13 +27,9 @@ class Experience extends Component {
       experienceSet.push(<p className='awardOrganiser'>{experience[i]["organization"]}</p>);
       experienceSet.push(<p className='awardYear'>{experience[i]["location"]}</p>);
       experienceSet.push(<p className='awardDescription'>{experience[i]["year"]}</p>);
-      if (experience[i]["description"].length > 1) {
-        experienceSet.push(<p className='awardDescription'><li>{experience[i]["description"][0]}</li></p>);
-        experienceSet.push(<p className='awardDescription'><li>{experience[i]["description"][1]}</li></p>);
-      }
-      else {
-        experienceSet.push(<p className='awardDescription'>{experience[i]["description"]}</p>);
-      }
+        for(var j=0; j<experience[i]["description"].length; j++) {
+          experienceSet.push(<p className='awardDescription'><li>{experience[i]["description"][j]}</li></p>);
+        }
       renderedexperience.push(experienceSet);
       renderedexperience.push(<br />);
     }

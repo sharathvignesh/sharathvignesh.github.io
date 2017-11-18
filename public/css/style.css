@@ -89,3 +89,7 @@ img {
 #skill-padding-bottom{
     padding-bottom: 4px;
 }
+.sideContent a{
+  text-decoration: underline;
+  color: #7246bf;
+}
