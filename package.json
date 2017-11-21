@@ -1,22 +1,19 @@
 {
-  "name": "ComingOrNot",
+  "name": "sharathvignesh.github.io",
   "version": "0.0.1",
-  "description": "A perect event organizer",
+  "description": "My resume",
   "keywords": [
     "reactJS",
-    "nodeJS",
-    "mongoDB",
-    "event organizer"
   ],
-  "homepage": "https://comingornot.com/",
+  "homepage": "sharathvignesh.github.io",
   "bugs": {
-    "email": "diwaakartg@gmail.com"
+    "email": "sharathvignesh08@gmail.com"
   },
   "license": "Open source",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lakshman-LD/LetsMeetUp"
+    "url": "https://github.com/sharathvignesh/sharathvignesh.github.io"
   },
   "engines": {
     "node": ">= 5.5.0"
