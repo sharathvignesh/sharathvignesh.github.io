@@ -5,7 +5,7 @@
   "mobile": "+81 9092027800",
   "about": "Full stack / Front end developer. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
   "skills": {
-    "language" : "Java, PHP, Javascript, HTML CSS, Python",
+    "language" : "Javascript, HTML CSS",
     "frameworks" : "ReactJS, Redux, NODEJS, MochaJS, GraphQL, SocketIO, Smarty PHP, FFMPEG, DashJS",
     "database" : "MySQL, Mongodb, Postgres, Elasticsearch",
     "tools" : "Git, Fluentd, Kibana, Grunt, Gulp, Webpack, Atom",
