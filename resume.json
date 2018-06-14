@@ -66,6 +66,12 @@
       "link": "https://posted-stg.herokuapp.com/"
     },
     {
+      "name": "whatsMyFood (under development)",
+      "role": "Front end developer",
+      "description": "Simple iOS app to remember the good and bad food that we ate at various restaurants. (uses React native, serverless, firebase)",
+      "link": "https://github.com/sharathvignesh/whatsMyFood"
+    },
+    {
       "name": "Coming-or-not",
       "role": "Full stack developer",
       "description": "An event planning system that is aimed to ease the work of event planners/organizers (uses ReactJS, Redux, serverless, GraphQL)",
