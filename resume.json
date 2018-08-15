@@ -5,11 +5,12 @@
   "mobile": "+81 9092027800",
   "about": "Full stack / Front end developer. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
   "skills": {
-    "language" : "Javascript, HTML CSS",
+    "language" : "Javascript, Java, HTML, CSS",
     "frameworks" : "ReactJS, Redux, NODEJS, MochaJS, GraphQL, SocketIO, Smarty PHP, FFMPEG, DashJS",
-    "database" : "MySQL, Mongodb, Postgres, Elasticsearch",
+    "database" : "MySQL, redis, Mongodb, Postgres, Elasticsearch",
+    "cloud": "AWS",
     "tools" : "Git, Fluentd, Kibana, Grunt, Gulp, Webpack, Atom",
-    "misc" : "CCNA, SDN, Stressless streaming, Unix, Web hosting"
+    "misc" : "Firebase, CCNA, SDN, Stressless streaming, Unix, Web hosting"
   },
   "experience": [
     {
@@ -19,6 +20,7 @@
       "year" : "Aug 2016 - Present",
       "description" : ["Developed a client side application (using ReactJS, SocketIO) for real time Doctor recommendation system.",
        "Test driven development of a Mulitmedia platform API (using nodeJS, MochaJS, Postgres) that processes the videos uploaded by the users.",
+       "Developing a IoT application to track employees in a company (Indoor localisation, voice & schedule). Uses react-native, Mongodb, nodeJS, SocketIO.",
        "Developed a client side video portal with various analytics features (using ReactJS, DashJS, nodeJS, Mongodb).",
        "Researched and solved a generic problem with respect to video streaming that enhances the QoE for the viewers."
       ]
