@@ -96,12 +96,6 @@
       "name": "SDN Application",
       "role": "Developer",
       "description": "An application to monitor, analyse and improve the overall throughput or performance of a Software defined Network"
-    },
-    {
-      "name": "Ping my food",
-      "role": "Full stack developer",
-      "description": "An Intelligent food network that facilitates the food surplus zones and food deficit zones to efficiently collaborate",
-      "link": "https://github.com/sharathvignesh/PingMyFood"
     }
   ],
   "contacts": {
