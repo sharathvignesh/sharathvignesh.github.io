@@ -6,18 +6,24 @@
   "about": "Full stack / Front end developer. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
   "skills": {
     "language" : "Javascript, Java, HTML, CSS",
-    "frameworks" : "ReactJS, Redux, NODEJS, MochaJS, GraphQL, SocketIO, Smarty PHP, FFMPEG, DashJS",
+    "frameworks" : "ReactJS, Redux, NODEJS, React-native, Serverless, MochaJS, GraphQL, SocketIO, FFMPEG, DashJS",
     "database" : "MySQL, redis, Mongodb, Postgres, Elasticsearch",
     "cloud": "AWS",
-    "tools" : "Git, Fluentd, Kibana, Grunt, Gulp, Webpack, Atom",
+    "tools" : "Git, Fluentd, Kibana, Grunt, Gulp, Webpack, Atom, Atlassian",
     "misc" : "Firebase, CCNA, SDN, Stressless streaming, Unix, Web hosting"
   },
   "experience": [
     {
+      "position" : "Front end developer",
+      "organization" : "Asurion",
+      "location" : "Tokyo, Japan",
+      "year" : "November 2018 - present"
+    },
+    {
       "position" : "Full stack developer",
       "organization" : "Fuji Xerox",
       "location" : "Yokohama, Japan",
-      "year" : "Aug 2016 - Present",
+      "year" : "Aug 2016 - October 2018",
       "description" : ["Developed a client side application (using ReactJS, SocketIO) for real time Doctor recommendation system.",
        "Test driven development of a Mulitmedia platform API (using nodeJS, MochaJS, Postgres) that processes the videos uploaded by the users.",
        "Developing a IoT application to track employees in a company (Indoor localisation, voice & schedule). Uses react-native, Mongodb, nodeJS, SocketIO.",
@@ -62,7 +68,7 @@
   ],
   "projects": [
     {
-      "name": "Posted (under development)",
+      "name": "Posted",
       "role": "Creator / Developer",
       "description": "📝 Beautiful product update (what's new) pages for your product.(uses ReactJS, nodeJS, Mongodb, JWT)",
       "link": "https://posted-stg.herokuapp.com/"
