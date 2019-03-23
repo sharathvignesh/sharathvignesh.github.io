@@ -5,48 +5,52 @@
   "mobile": "+81 9092027800",
   "about": "Full stack / Front end developer. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
   "skills": {
-    "language" : "Javascript, Java, HTML, CSS",
-    "frameworks" : "ReactJS, Redux, NODEJS, React-native, Serverless, MochaJS, GraphQL, SocketIO, FFMPEG, DashJS",
-    "database" : "MySQL, redis, Mongodb, Postgres, Elasticsearch",
-    "cloud": "AWS",
-    "tools" : "Git, Fluentd, Kibana, Grunt, Gulp, Webpack, Atom, Atlassian",
-    "misc" : "Firebase, CCNA, SDN, Stressless streaming, Unix, Web hosting"
+    "language": "Javascript, Typescript, Java, HTML",
+    "frameworks": "ReactJS, Redux, NODEJS, Styled components, React-native, Serverless, MochaJS, GraphQL, FFMPEG, DashJS",
+    "database": "MySQL, redis, Mongodb, Postgres, Elasticsearch",
+    "cloud": "AWS (Basics)",
+    "tools": "Git, Fluentd, Kibana, Parcel, eslint, Atlassian",
+    "misc": "Firebase, CCNA, SDN, Stressless streaming, Unix, Web hosting"
   },
   "experience": [
     {
-      "position" : "Front end developer",
-      "organization" : "Asurion",
-      "location" : "Tokyo, Japan",
-      "year" : "November 2018 - present",
+      "position": "Front end developer",
+      "organization": "Asurion",
+      "location": "Tokyo, Japan",
+      "year": "November 2018 - present",
       "description": []
     },
     {
-      "position" : "Full stack developer",
-      "organization" : "Fuji Xerox",
-      "location" : "Yokohama, Japan",
-      "year" : "Aug 2016 - October 2018",
-      "description" : ["Developed a client side application (using ReactJS, SocketIO) for real time Doctor recommendation system.",
-       "Test driven development of a Mulitmedia platform API (using nodeJS, MochaJS, Postgres) that processes the videos uploaded by the users.",
-       "Developing a IoT application to track employees in a company (Indoor localisation, voice & schedule). Uses react-native, Mongodb, nodeJS, SocketIO.",
-       "Developed a client side video portal with various analytics features (using ReactJS, DashJS, nodeJS, Mongodb).",
-       "Researched and solved a generic problem with respect to video streaming that enhances the QoE for the viewers."
+      "position": "Full stack developer",
+      "organization": "Fuji Xerox",
+      "location": "Yokohama, Japan",
+      "year": "Aug 2016 - October 2018",
+      "description": [
+        "Developed a client side application (using ReactJS, SocketIO) for real time Doctor recommendation system.",
+        "Test driven development of a Mulitmedia platform API (using nodeJS, MochaJS, Postgres) that processes the videos uploaded by the users.",
+        "Developing a IoT application to track employees in a company (Indoor localisation, voice & schedule). Uses react-native, Mongodb, nodeJS, SocketIO.",
+        "Developed a client side video portal with various analytics features (using ReactJS, DashJS, nodeJS, Mongodb).",
+        "Researched and solved a generic problem with respect to video streaming that enhances the QoE for the viewers."
       ]
     },
     {
-      "position" : "Full Stack developer Intern",
-      "organization" : "Nasotech LLC",
-      "location" : "Chennai, India",
-      "year" : "Dec 2014 - May 2015",
-      "description" : ["Developed a Library application (using smartyPhP, MySQL, HTML, JS)that allows the users to lend and borrow books.",
+      "position": "Full Stack developer Intern",
+      "organization": "Nasotech LLC",
+      "location": "Chennai, India",
+      "year": "Dec 2014 - May 2015",
+      "description": [
+        "Developed a Library application (using smartyPhP, MySQL, HTML, JS)that allows the users to lend and borrow books.",
         "Lead a team of 4 fellow interns for the project."
       ]
     },
     {
-      "position" : "Full stack Developer",
-      "organization" : "Nowd. Co",
-      "location" : "Chennai, India",
-      "year" : "June 2014 - Feb 2015",
-      "description" : ["Nowd is a digital product agency specializing in APIs, prototypes and MVP's for startups and schools."]
+      "position": "Full stack Developer",
+      "organization": "Nowd. Co",
+      "location": "Chennai, India",
+      "year": "June 2014 - Feb 2015",
+      "description": [
+        "Nowd is a digital product agency specializing in APIs, prototypes and MVP's for startups and schools."
+      ]
     }
   ],
   "education": [
@@ -54,7 +58,8 @@
       "name": "SSN College of Engineering",
       "degree": "B.E Computer Science",
       "year": "2012 - 2016",
-      "description": ["Head of SSN ACM Student Chapter web development team",
+      "description": [
+        "Head of SSN ACM Student Chapter web development team",
         "Head of Instincts Tech team 2015"
       ]
     }
@@ -85,12 +90,6 @@
       "role": "Full stack developer",
       "description": "An event planning system that is aimed to ease the work of event planners/organizers (uses ReactJS, Redux, serverless, GraphQL)",
       "link": "http://comingornot.com/"
-    },
-    {
-      "name": "FoodforNeed",
-      "role": "Creator / Developer",
-      "description": "A web app aimed to reduce food wastage and to feed the needy ones (uses ReactJS, Redux, nodeJS, GraphQL, Mongodb)",
-      "link": "http://foodforneed.herokuapp.com/"
     },
     {
       "name": "SDN Application",
