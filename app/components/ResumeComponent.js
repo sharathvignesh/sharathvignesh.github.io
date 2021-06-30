@@ -10,7 +10,7 @@ import Experience from './Experience';
 import Skills from './Skills';
 import Contact from './Contact';
 import Education from './Education';
-import Awards from './Awards';
+// import Awards from './Awards';
 import Projects from './Projects';
 var $ = require ('jquery');
 let styles = {
@@ -66,7 +66,7 @@ componentDidMount(){
           <div className='row col-xs-offset-1 col-md-offset-2'>
             <div className='col-xs-12 col-md-10' style={{'paddingTop' : '37px'}}>
              <h1 className='robotoRegFont'>{resume.name}</h1>
-             <h5 className='robotoLightFont' style={{'color' : '#797575','lineHeight' : '2'}}>{resume.address} &nbsp;&nbsp;|&nbsp;&nbsp;{resume.email} &nbsp;&nbsp;|&nbsp;{resume.mobile}</h5>
+             <h5 className='robotoLightFont' style={{'color' : '#000000','lineHeight' : '2'}}>{resume.address} &nbsp;&nbsp;|&nbsp;&nbsp;{resume.email} &nbsp;&nbsp;|&nbsp;{resume.mobile}</h5>
           <About abt={resume.about}/>
           <br />
           <Skills skillSet={resume.skills}/>
@@ -74,8 +74,6 @@ componentDidMount(){
           <Experience experience={resume.experience}/>
           <br />
           <Projects projects={resume.projects}/>
-          <br />
-          <Awards awards={resume.awards}/>
           <br />
           <Education education={resume.education}/>
           <br />
