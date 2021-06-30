@@ -5,22 +5,22 @@
   "mobile": "+81 9092027800",
   "about": "Full stack / Front end developer. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
   "skills": {
-    "language": "Javascript, Typescript, Java, HTML",
-    "frameworks": "ReactJS, Redux, NODEJS, Styled components, React-native, Serverless, MochaJS, GraphQL, FFMPEG, DashJS",
+    "language": "Javascript, Typescript, HTML",
+    "frameworks": "ReactJS, Redux, NodeJS, GraphQL, Styled components, React-native, MochaJS, Cypress, NextJS",
     "database": "MySQL, redis, Mongodb, Postgres, Elasticsearch",
-    "cloud": "AWS (Basics)",
+    "cloud": "AWS (Intermediate), firebase",
     "tools": "Git, Fluentd, Kibana, Parcel, eslint, Atlassian",
-    "misc": "Firebase, CCNA, SDN, Stressless streaming, Unix, Web hosting"
+    "misc": "CCNA, FFMPEG, DashJS, SDN, Stressless streaming, Unix"
   },
   "experience": [
     {
-      "position": "Senior Front end developer (Project lead)",
+      "position": "Front end lead",
       "organization": "Asurion",
       "location": "Tokyo, Japan",
       "year": "November 2018 - present",
       "description": [
         "Lead developer on a call center application for some of the biggest clients in Japan. (Stack: React, Redux, Typescript & styled-components)",
-        "Leading a group of offshore and onsite developers in the same project"
+        "Leading a group of offshore and onsite developers in the same project since 2020 Jan"
       ]
     },
     {
@@ -67,14 +67,6 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "name": "Best technology award",
-      "organiser": "32 Hour startup, Lakshya",
-      "date": "",
-      "description": "My team was bestowed with 'Best technology award' for our product 'Ping my food'"
-    }
-  ],
   "projects": [
     {
       "name": "Posted",
@@ -83,7 +75,7 @@
       "link": "https://posted-stg.herokuapp.com/"
     },
     {
-      "name": "whatsMyFood (under development)",
+      "name": "whatsMyFood",
       "role": "Front end developer",
       "description": "Simple iOS app to remember the good and bad food that we ate at various restaurants. (uses React native, serverless, firebase)",
       "link": "https://github.com/sharathvignesh/whatsMyFood"
