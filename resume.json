@@ -3,24 +3,26 @@
   "address": "Tokyo, Japan 🗻 ",
   "email": "sharathvignesh08@gmail.com",
   "mobile": "+81 9092027800",
-  "about": "Full stack / Front end developer. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
+  "about": "Full stack / Front end developer turned solutions architect. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
   "skills": {
     "language": "Javascript, Typescript, HTML",
     "frameworks": "ReactJS, Redux, NodeJS, GraphQL, Styled components, React-native, MochaJS, Cypress, NextJS",
     "database": "MySQL, redis, Mongodb, Postgres, Elasticsearch",
-    "cloud": "AWS (Intermediate), firebase",
+    "cloud": "AWS, firebase",
     "tools": "Git, Fluentd, Kibana, Parcel, eslint, Atlassian",
     "misc": "CCNA, FFMPEG, DashJS, SDN, Stressless streaming, Unix"
   },
   "experience": [
     {
-      "position": "Front end lead",
+      "position": "Architect Associate",
       "organization": "Asurion",
       "location": "Tokyo, Japan",
       "year": "November 2018 - present",
       "description": [
+        "Architected and developed a community project for clients in a very short span of time, a Covid portal that helps the mangers track covid tests and results of peers working under them. (Stack: React, Redux, nodejs, AWS infra)",
         "Lead developer on a call center application for some of the biggest clients in Japan. (Stack: React, Redux, Typescript & styled-components)",
-        "Leading a group of offshore and onsite developers in the same project since 2020 Jan"
+        "Leading a group of offshore and onsite developers in the same project since 2020 Jan",
+        "Lead the efforts for TDD across projects, improving the test coverage from 10% to 52%, ultimately improving quality across projects"
       ]
     },
     {
