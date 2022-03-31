@@ -89,6 +89,7 @@
     "power-assert": "^1.4.1",
     "proxy-middleware": "^0.15.0",
     "reactify": "~1.1.1",
-    "redux-devtools": "^3.3.1"
+    "redux-devtools": "^3.3.1",
+    "webpack-cli": "^4.9.2"
   }
 }
