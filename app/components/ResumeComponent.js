@@ -12,6 +12,7 @@ import Contact from './Contact';
 import Education from './Education';
 // import Awards from './Awards';
 import Projects from './Projects';
+import Language from './Language';
 var $ = require ('jquery');
 let styles = {
   robotofont: {
@@ -29,36 +30,6 @@ const muiTheme = getMuiTheme({
 });
 
 class ResumeComponent extends Component {
-
-
-
-
-componentDidMount(){
-  console.log("did mount");
-  $.get("https://ipinfo.io", function(response) {
-    const city = response.city;
-    const host = response.hostname;
-    fetch('https://hooks.slack.com/services/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', {
-    credentials: 'omit',
-    method: 'POST',
-    //body: JSON.stringify({'value' : value})})
-    body: JSON.stringify({'text' : "someone viewed your resume from " + city + "," + host})})
-     .then(res => {
-       if (res.status !== 200) {
-         let status = res.status;
-         console.log('error in posting event');
-       }
-       console.log("succesfully saved");
-       console.log(res.json());
-     })
-     .then(res =>{
-       console.log(res);
-     })
-  }, "jsonp")
-
-}
-
-
   render() {
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
@@ -68,6 +39,8 @@ componentDidMount(){
              <h1 className='robotoRegFont'>{resume.name}</h1>
              <h5 className='robotoLightFont' style={{'color' : '#000000','lineHeight' : '2'}}>{resume.address} &nbsp;&nbsp;|&nbsp;&nbsp;{resume.email} &nbsp;&nbsp;|&nbsp;{resume.mobile}</h5>
           <About abt={resume.about}/>
+          <br />
+          <Language language={resume.language}/>
           <br />
           <Skills skillSet={resume.skills}/>
           <br />
