@@ -10,7 +10,7 @@ let styles = {
   }
 }
 
-class About extends Component {
+class Language extends Component {
   constructor(props) {
     super(props);
   }
