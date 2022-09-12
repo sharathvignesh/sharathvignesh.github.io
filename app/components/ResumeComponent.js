@@ -47,7 +47,7 @@ class ResumeComponent extends Component {
                     &nbsp;&nbsp;|&nbsp;{resume.mobile}
                   </h5>
                 </div>
-                <div className="col-xs-4 col-md-4">
+                <div className="col-xs-4 col-md-4" style={{ display: 'flex', justifyContent: 'end' }}>
                   <a
                     className="imgSpace"
                     target="_blank"
@@ -55,7 +55,7 @@ class ResumeComponent extends Component {
                       "https://www.credly.com/badges/646b729b-235c-4468-9956-1a8143498be8/public_url"
                     }
                   >
-                    <img src="./images/saa.png" />
+                    <img src="./images/saa.png" style={{ height: '80px' }} />
                   </a>
                 </div>
               </div>
