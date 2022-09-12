@@ -36,24 +36,28 @@ class ResumeComponent extends Component {
         <div className="fullPage">
           <div className="row col-xs-offset-1 col-md-offset-2">
             <div className="col-xs-12 col-md-10" style={{ paddingTop: "37px" }}>
-              <div className="col-xs-8 col-md-8">
-                <h1 className="robotoRegFont">{resume.name}</h1>
-                <h5
-                  className="robotoLightFont"
-                  style={{ color: "#000000", lineHeight: "2" }}
-                >
-                  {resume.address} &nbsp;&nbsp;|&nbsp;&nbsp;{resume.email}{" "}
-                  &nbsp;&nbsp;|&nbsp;{resume.mobile}
-                </h5>
-              </div>
-              <div className="col-xs-4 col-md-4" justify="flex-end">
-                <a
-                  className="imgSpace"
-                  target="_blank"
-                  href={"https://www.credly.com/badges/646b729b-235c-4468-9956-1a8143498be8/public_url"}
-                >
-                  <img src="./images/saa.png" />
-                </a>
+              <div className="row">
+                <div className="col-xs-8 col-md-8">
+                  <h1 className="robotoRegFont">{resume.name}</h1>
+                  <h5
+                    className="robotoLightFont"
+                    style={{ color: "#000000", lineHeight: "2" }}
+                  >
+                    {resume.address} &nbsp;&nbsp;|&nbsp;&nbsp;{resume.email}{" "}
+                    &nbsp;&nbsp;|&nbsp;{resume.mobile}
+                  </h5>
+                </div>
+                <div className="col-xs-4 col-md-4">
+                  <a
+                    className="imgSpace"
+                    target="_blank"
+                    href={
+                      "https://www.credly.com/badges/646b729b-235c-4468-9956-1a8143498be8/public_url"
+                    }
+                  >
+                    <img src="./images/saa.png" />
+                  </a>
+                </div>
               </div>
               <About abt={resume.about} />
               <br />
