@@ -13,6 +13,7 @@ import Education from "./Education";
 // import Awards from './Awards';
 import Projects from "./Projects";
 import Language from "./Language";
+import Patents from "./Patents";
 var $ = require("jquery");
 let styles = {
   robotofont: {
@@ -66,6 +67,8 @@ class ResumeComponent extends Component {
               <Skills skillSet={resume.skills} />
               <br />
               <Experience experience={resume.experience} />
+              <br />
+              <Patents patentsAndBlogs={resume.patentsAndBlogs} />
               <br />
               <Projects projects={resume.projects} />
               <br />

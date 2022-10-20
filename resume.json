@@ -3,12 +3,12 @@
   "address": "Tokyo, Japan 🗻 ",
   "email": "sharathvignesh08@gmail.com",
   "mobile": "+81 9092027800",
-  "about": "Solutions Architect Associate| Application development. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
+  "about": "Solutions Architect Associate | Application development. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
   "language": "English (Native proficiency), Japanese (N3 conversational level), Tamil (Native proficiency)",
   "skills": {
     "language": "Javascript, Typescript, HTML",
     "frameworks": "ReactJS, Redux, NodeJS, GraphQL, Styled components, React-native, MochaJS, Cypress, NextJS",
-    "database": "MySQL, redis, Mongodb, Postgres, Elasticsearch",
+    "database": "Postgres, DynamoDB, MondoDB, Redis",
     "cloud": "AWS SAA, firebase",
     "tools": "Git, Fluentd, Cypress, Kibana, Parcel, eslint, Atlassian",
     "misc": "CCNA, FFMPEG, DashJS, SDN, Stressless streaming, Unix"
@@ -20,9 +20,9 @@
       "location": "Tokyo, Japan",
       "year": "November 2018 - present",
       "description": [
-        "Architected and developed a emergency application for clients in a very short span of time, a Covid portal that helps the managers track covid tests and results of peers working under them. (Stack: React, Redux, nodejs, AWS CDK)",
-        "Planned and implemented a Github CI/CD workflow(automated lint, cypress integration tests, unit tests, typescript check & semantic release) for applications from scratch.",
-        "Lead developer on a call center application for some of the biggest clients in Japan. (Stack: AWS serverless, React, Redux, Typescript)",
+        "Architected a serverless 3 tier application and developed the same for clients in a very short span of time, a Covid portal that helps the managers track covid tests and results of peers working under them. (Stack: AWS CDK, React, Redux, nodejs)",
+        "Planned and implemented a cost effective Github CI/CD workflow(automated lint, cypress integration tests, unit tests, typescript check & semantic release) for applications from scratch.",
+        "Lead developer on a call center application for some of the biggest clients in Japan. (Stack: AWS Infra, React, Redux, Typescript)",
         "Lead the efforts for TDD across projects, improving the test coverage from 10% to 52%, ultimately improving quality across projects"
       ]
     },
@@ -32,11 +32,11 @@
       "location": "Yokohama, Japan",
       "year": "Aug 2016 - October 2018",
       "description": [
+        "Researched and solved a generic problem with respect to video streaming that enhances the QoE for the viewers.",
         "Developed a client side application (using ReactJS, SocketIO) for real time Doctor recommendation system.",
         "Test driven development of a Mulitmedia platform API (using nodeJS, MochaJS, Postgres) that processes the videos uploaded by the users.",
         "Developing a IoT application to track employees in a company (Indoor localisation, voice & schedule). Uses react-native, Mongodb, nodeJS, SocketIO.",
-        "Developed a client side video portal with various analytics features (using ReactJS, DashJS, nodeJS, Mongodb).",
-        "Researched and solved a generic problem with respect to video streaming that enhances the QoE for the viewers."
+        "Developed a client side video portal with various analytics features (using ReactJS, DashJS, nodeJS, Mongodb)."
       ]
     },
     {
@@ -47,15 +47,6 @@
       "description": [
         "Developed a Library application (using smartyPhP, MySQL, HTML, JS)that allows the users to lend and borrow books.",
         "Lead a team of 4 fellow interns for the project."
-      ]
-    },
-    {
-      "position": "Full stack Developer",
-      "organization": "Nowd. Co",
-      "location": "Chennai, India",
-      "year": "June 2014 - Feb 2015",
-      "description": [
-        "Nowd is a digital product agency specializing in APIs, prototypes and MVP's for startups and schools."
       ]
     }
   ],
@@ -68,6 +59,16 @@
         "Head of SSN ACM Student Chapter web development team",
         "Head of Instincts Tech team 2015"
       ]
+    }
+  ],
+  "patentsAndBlogs": [
+    {
+      "name": "Remote conference system",
+      "link": "https://www.j-platpat.inpit.go.jp/c1800/PU/JP-2020-028084/C74AAD2005091BD651EE3E7CAC9105FE36DE76FCFE462271A87D85073A8C03B6/11/ja"
+    },
+    {
+      "name": "Tech blogs",
+      "link": "https://sharathvignesh.medium.com/"
     }
   ],
   "projects": [
@@ -87,12 +88,7 @@
       "name": "Coming-or-not",
       "role": "Full stack developer",
       "description": "An event planning system that is aimed to ease the work of event planners/organizers (uses ReactJS, Redux, serverless, GraphQL)",
-      "link": "http://comingornot.com/"
-    },
-    {
-      "name": "SDN Application",
-      "role": "Developer",
-      "description": "An application to monitor, analyse and improve the overall throughput or performance of a Software defined Network"
+      "link": "https://github.com/lakshmantgld/comingOrNot"
     }
   ],
   "contacts": {
