@@ -17,7 +17,7 @@ class Patents extends Component {
 
   renderExperience(patentsAndBlogs) {
     let renderedexperience = [];
-    for (let i = 0; i < experience.length; i++) {
+    for (let i = 0; i < patentsAndBlogs.length; i++) {
       let experienceSet = [];
       experienceSet.push(
         <a target="_blank" href={patentsAndBlogs[i]["link"]}>
