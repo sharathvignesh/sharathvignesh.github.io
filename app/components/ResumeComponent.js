@@ -66,9 +66,9 @@ class ResumeComponent extends Component {
               <br />
               <Skills skillSet={resume.skills} />
               <br />
-              <Experience experience={resume.experience} />
-              <br />
               <Patents patentsAndBlogs={resume.patentsAndBlogs} />
+              <br />
+              <Experience experience={resume.experience} />
               <br />
               <Projects projects={resume.projects} />
               <br />
