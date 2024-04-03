@@ -3,25 +3,26 @@
   "address": "Tokyo, Japan 🗻 ",
   "email": "sharathvignesh08@gmail.com",
   "mobile": "+81 9092027800",
-  "about": "Solutions Architect Associate | Application development. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
+  "about": "Application architect & development. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
   "language": "English (Business proficiency), Japanese (JLPT N3 certified), Tamil (Native proficiency)",
   "skills": {
     "language": "Javascript, Typescript, HTML",
     "frameworks": "ReactJS, Redux, AWS CDK, NodeJS, GraphQL, MochaJS, Cypress, NextJS",
     "database": "Postgres, DynamoDB, MondoDB, Redis",
     "cloud": "AWS SAA, firebase",
-    "tools": "Git, Fluentd, Cypress, Kibana, Parcel, eslint, Atlassian",
+    "tools": "Git, Contentful, Cypress, Kibana, Parcel, Atlassian",
     "misc": "CCNA, FFMPEG, DashJS, SDN, Stressless streaming, Unix"
   },
   "experience": [
     {
-      "position": "Software Engineer II",
+      "position": "Software Engineer III",
       "organization": "Asurion",
       "location": "Tokyo, Japan",
       "year": "November 2018 - present",
       "description": [
         "Architected and Implemented a highly available infrastructure and deployment pipeline for public facing single page applications using AWS CDK.",
-        "Architected several 3 tier applications in AWS and developed the same for clients in a very short span of time. Eg, Covid portal that helps the managers track covid tests and results of peers working under them. (Stack: AWS CDK, React, Redux, nodejs).",
+        "Proactively addressed critical and high-risk vulnerabilities across a spectrum of applications, ensuring robust security posture.",
+        "Orchestrated multifaceted cloud optimizations spanning diverse applications, fostering seamless collaboration across multiple teams for enhanced performance and efficiency.",
         "Planned and implemented a cost effective Github CI/CD workflow(automated lint, cypress integration tests, unit tests, typescript check & semantic release) for applications from scratch.",
         "UI lead on call center application for some of the biggest clients in Japan. (Stack: AWS Infra, React, Redux, Typescript).",
         "Lead the efforts for TDD across diffeent projects, improving the test coverage from 10% to 52%, ultimately improving quality across projects."
