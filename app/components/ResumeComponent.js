@@ -58,6 +58,15 @@ class ResumeComponent extends Component {
                   >
                     <img src="./images/saa.png" style={{ height: '80px' }} />
                   </a>
+                  <a
+                    className="imgSpace"
+                    target="_blank"
+                    href={
+                      "https://www.credly.com/badges/5d30d973-1cc5-4839-90eb-5f932ccd18a4/public_url"
+                    }
+                  >
+                    <img src="./images/giac.png" style={{ height: '80px' }} />
+                  </a>
                 </div>
               </div>
               <About abt={resume.about} />

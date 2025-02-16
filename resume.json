@@ -3,13 +3,13 @@
   "address": "Tokyo, Japan 🗻 ",
   "email": "sharathvignesh08@gmail.com",
   "mobile": "+81 9092027800",
-  "about": "Application architect & development. I Think 🤔, make 🔨, check 💯 and ship ⛵. Strong believer of the quote \"Stop Hate, Spread Love.\"",
+  "about": "Application architecture & full stack development",
   "language": "English (Business proficiency), Japanese (JLPT N3 certified), Tamil (Native proficiency)",
   "skills": {
-    "language": "Javascript, Typescript, HTML",
-    "frameworks": "ReactJS, Redux, AWS CDK, NodeJS, GraphQL, MochaJS, Cypress, NextJS",
+    "language": "Typescript, Javascript",
+    "frameworks": "ReactJS ecosystem, AWS CDK, NodeJS, tRPC, GraphQL, NextJS",
     "database": "Postgres, DynamoDB, MondoDB, Redis",
-    "cloud": "AWS SAA, firebase",
+    "cloud": "AWS, firebase",
     "tools": "Git, Contentful, Cypress, Kibana, Parcel, Atlassian",
     "misc": "CCNA, FFMPEG, DashJS, SDN, Stressless streaming, Unix"
   },
@@ -20,35 +20,28 @@
       "location": "Tokyo, Japan",
       "year": "November 2018 - present",
       "description": [
-        "Architected and Implemented a highly available infrastructure and deployment pipeline for public facing single page applications using AWS CDK.",
-        "Proactively addressed critical and high-risk vulnerabilities across a spectrum of applications, ensuring robust security posture.",
+        "Hands on experience in end-to-end architecture and development for multiple projects, including database design, tech stack selection, and system design, delivering both internal and external applications. (AWS stack)",
+        "Actively exploring Generative AI to identify use cases, develop rapid POCs, and showcase value to stakeholders and customers. (AWS Kendra, Langchain)",
+        "Led Japan-specific customizations and implementation for the Google Insurance project, collaborating with global team to ensure a successful launch and steady growth.",
+        "Proactively addressed critical and high-risk security vulnerabilities across a spectrum of applications, ensuring robust security posture for Japan region applications.",
         "Orchestrated multifaceted cloud optimizations spanning diverse applications, fostering seamless collaboration across multiple teams for enhanced performance and efficiency.",
         "Planned and implemented a cost effective Github CI/CD workflow(automated lint, cypress integration tests, unit tests, typescript check & semantic release) for applications from scratch.",
-        "UI lead on call center application for some of the biggest clients in Japan. (Stack: AWS Infra, React, Redux, Typescript).",
+        "Lead the UI team involving on-site as well as offshore developers on call center application for some of the biggest clients in Japan. (Stack: AWS Infra, React, Redux, Typescript).",
         "Lead the efforts for TDD across diffeent projects, improving the test coverage from 10% to 52%, ultimately improving quality across projects."
       ]
     },
     {
-      "position": "Full stack developer",
+      "position": "R&D Engineer",
       "organization": "Fuji Xerox",
       "location": "Yokohama, Japan",
       "year": "Aug 2016 - October 2018",
       "description": [
         "Researched and solved a generic problem with respect to video streaming that enhances the QoE for the viewers.",
+        "Contributed to the patent (JP-2020-028084) for a remote conference system that differentiates group audio output.",
         "Developed a client side application (using ReactJS, SocketIO) for real time Doctor recommendation system.",
         "Test driven development of a Mulitmedia platform API (using nodeJS, MochaJS, Postgres) that processes the videos uploaded by the users.",
         "Developing a IoT application to track employees in a company (Indoor localisation, voice & schedule). Uses react-native, Mongodb, nodeJS, SocketIO.",
         "Developed a client side video portal with various analytics features (using ReactJS, DashJS, nodeJS, Mongodb)."
-      ]
-    },
-    {
-      "position": "Full Stack developer Intern",
-      "organization": "Nasotech LLC",
-      "location": "Chennai, India",
-      "year": "Dec 2014 - May 2015",
-      "description": [
-        "Developed a Library application (using smartyPhP, MySQL, HTML, JS)that allows the users to lend and borrow books.",
-        "Lead a team of 4 fellow interns for the project."
       ]
     }
   ],
